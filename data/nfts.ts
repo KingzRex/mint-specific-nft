@@ -1,20 +1,7 @@
 import { NFT } from "../types/NFT";
 
 export const nfts: NFT[] = [
-  {
-    id: 0,
-    name: "NFT 1",
-    description: "This is our first amazing NFT",
-    url: "https://i.postimg.cc/HsWSSZVc/certificate-1-copy-MINT.jpg",
-    price: 0,
-  },
-  {
-    id: 1,
-    name: "NFT 2",
-    description: "This is our second amazing NFT",
-    url: "https://gateway.pinata.cloud/ipfs/QmVPUf4e3ZcfjiwFGq6zTBhAxuy9oZzDz8isNVUNsEezNP",
-    price: 0.00,
-  },
+  
   {
     "id": 50,
     "name": "Adum J. Johnson",
@@ -393,18 +380,18 @@ export const nfts: NFT[] = [
   },
   {
     "id": 48,
-    "name": "Adum J Johnson",
+    "name": "Johnson Doe",
     "description": "DTCSI Certificate of Achievement",
-    "url": "https://gateway.pinata.cloud/ipfs/QmeeRwQgDZpS8yurrVhdSJmurZtGYEwLoV4X4b5ZtuUDk7",
-    "image": "https://gateway.pinata.cloud/ipfs/QmeeRwQgDZpS8yurrVhdSJmurZtGYEwLoV4X4b5ZtuUDk7",
+    "url": "https://gateway.pinata.cloud/ipfs/QmVPUf4e3ZcfjiwFGq6zTBhAxuy9oZzDz8isNVUNsEezNP",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVPUf4e3ZcfjiwFGq6zTBhAxuy9oZzDz8isNVUNsEezNP",
     "price": 0.00
   },
   {
     "id": 49,
-    "name": "Adum J Johnson",
+    "name": "John Doe",
     "description": "DTCSI Certificate of Achievement",
-    "url": "https://gateway.pinata.cloud/ipfs/QmeeRwQgDZpS8yurrVhdSJmurZtGYEwLoV4X4b5ZtuUDk7",
-    "image": "https://gateway.pinata.cloud/ipfs/QmeeRwQgDZpS8yurrVhdSJmurZtGYEwLoV4X4b5ZtuUDk7",
+    "url": "https://gateway.pinata.cloud/ipfs/QmVPUf4e3ZcfjiwFGq6zTBhAxuy9oZzDz8isNVUNsEezNP",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVPUf4e3ZcfjiwFGq6zTBhAxuy9oZzDz8isNVUNsEezNP",
     "price": 0.00
   },
 ];
