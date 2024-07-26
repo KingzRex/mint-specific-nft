@@ -3,6 +3,7 @@ export interface NFT {
   name: string;
   description: string;
   url: string;
+  image?: string;
   price: number;
   minted?: boolean;
 }

@@ -9,7 +9,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   try {
     const sdk = ThirdwebSDK.fromPrivateKey(
       process.env.WALLET_PRIVATE_KEY!,
-      "goerli",
+      "polygon",
       {
         secretKey: process.env.TW_SECRET_KEY,
       }

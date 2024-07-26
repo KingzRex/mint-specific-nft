@@ -10,7 +10,7 @@ export default async function handler(
   if (req.method === "GET") {
     const sdk = ThirdwebSDK.fromPrivateKey(
       process.env.WALLET_PRIVATE_KEY!,
-      "goerli",
+      "polygon",
       {
         secretKey: process.env.TW_SECRET_KEY,
       }
@@ -40,6 +40,7 @@ export default async function handler(
 
       return res.status(200).json(nfts);
     } catch (error) {
+      console.log({ error });
       return res.status(500).json({ error });
     }
   }
